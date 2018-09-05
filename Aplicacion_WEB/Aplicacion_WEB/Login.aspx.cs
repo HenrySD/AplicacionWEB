@@ -19,7 +19,7 @@ namespace Aplicacion_WEB
             string usuario = txtUsario.Text;
             string contra = txtPassword.Text;
 
-            string[] userNAme = { "jorge", "Maria", "Pedro","alex" };
+            string[] userNAme = { "jorge", "Maria", "Pedro","alex","vicky" };
             string contraName = "jorge";
             for (int i = 0; i < userNAme.Length; i++)
             {
