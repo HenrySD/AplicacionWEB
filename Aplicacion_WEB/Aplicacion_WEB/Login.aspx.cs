@@ -13,5 +13,32 @@ namespace Aplicacion_WEB
         {
 
         }
+
+        protected void btnIngresar_Click(object sender, EventArgs e)
+        {
+            string usuario = txtUsario.Text;
+            string contra = txtPassword.Text;
+
+            string[] userNAme = { "jorge", "Maria", "Pedro" };
+            string contraName = "jorge";
+            for (int i = 0; i < userNAme.Length; i++)
+            {
+                if (usuario.Equals(userNAme[i]) && contra.Equals(contraName))
+                {
+                    Response.Write("<script>alert('Usuario Correcto')</script>");
+
+                }
+                else
+                {
+                    Response.Write("<script>alert('Usuario Incorrecto')</script>");
+                }
+
+            }
+        
+            
+
+
+
+        }
     }
 }

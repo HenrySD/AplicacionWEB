@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="footer">
-                    <asp:Button ID="btnIngresar" runat="server" Text="Iniciar Sesion" CssClass="btn bg-olive btn-block"/>
+                    <asp:Button ID="btnIngresar" runat="server" Text="Iniciar Sesion" CssClass="btn bg-olive btn-block" OnClick="btnIngresar_Click"/>
                 </div>
             </form>
 
